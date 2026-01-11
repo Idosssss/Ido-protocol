@@ -30,9 +30,14 @@
       }
     </script>
     <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 100px; /* Ensures fixed header doesn't cover section titles */
+      }
       body {
         background-color: #000000;
         color: #ffffff;
+        overflow-x: hidden;
       }
       .gold-gradient-text {
         background: linear-gradient(to right, #D4AF37, #ffffff);

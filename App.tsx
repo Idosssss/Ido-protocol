@@ -16,7 +16,7 @@ function App() {
   const [selectedModule, setSelectedModule] = useState<WikiModule | null>(null);
 
   return (
-    <div className="min-h-screen bg-black text-white selection:bg-gold-400 selection:text-black font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-black text-white selection:bg-gold-400 selection:text-black font-sans">
       <Header />
 
       {/* Hero Section */}

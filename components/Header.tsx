@@ -15,7 +15,7 @@ const Header: React.FC = () => {
 
   const navLinks = [
     { label: 'Ascension', href: '#ascension' },
-    { label: 'Stats', href: '#castor-wiki' },
+    { label: 'Stats', href: '#analytics' }, // Updated to point to Data Analytics
     { label: 'Gym', href: '#gym-protocol' },
     { label: 'Scent', href: '#fragrance' },
     { label: 'Wiki', href: '#softmaxxing' },

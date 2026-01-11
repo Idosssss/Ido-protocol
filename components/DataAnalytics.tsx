@@ -156,7 +156,7 @@ const DataAnalytics: React.FC = () => {
   };
 
   return (
-    <section className="py-24 bg-black relative border-t border-white/5 overflow-hidden">
+    <section id="analytics" className="py-24 bg-black relative border-t border-white/5 overflow-hidden scroll-mt-20">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:40px_40px]"></div>
       
       <div className="container mx-auto px-6 relative z-10">
