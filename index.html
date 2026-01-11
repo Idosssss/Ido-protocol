@@ -32,7 +32,7 @@
     <style>
       html {
         scroll-behavior: smooth;
-        scroll-padding-top: 100px; /* Ensures fixed header doesn't cover section titles */
+        scroll-padding-top: 100px; 
       }
       body {
         background-color: #000000;
@@ -54,7 +54,6 @@
         box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
         border-color: rgba(212, 175, 55, 0.5);
       }
-      /* Custom Scrollbar */
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -69,18 +68,10 @@
         background: #D4AF37;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
-</head>
+  </head>
   <body>
     <div id="root"></div>
+
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
