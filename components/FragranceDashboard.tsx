@@ -288,7 +288,7 @@ const FRAGRANCES: Fragrance[] = [
     vibe: ['Radiant', 'Intense', 'Ascended'],
     season: ['Winter', 'Fall'],
     performance: 'Beast Mode',
-    image: 'https://images.unsplash.com/photo-1595433707802-68067d84985a?q=80&w=270&h=270&auto=format&fit=crop', 
+    image: 'https://fimgs.net/mdimg/perfume-thumbs/dark-270x270.105520.avif', 
     projection: 'Room Filling',
     sillage: 'Extreme'
 },
