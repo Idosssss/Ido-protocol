@@ -137,18 +137,18 @@ const DataAnalytics: React.FC = () => {
   };
 
   // Stats for the Distribution Curve
-  const bellCurveStats = {
-    1: { tier: "It's Over", percentile: "Bottom 1%", ratio: "1 in 100", mog: "1%" },
-    2: { tier: "Sub-5", percentile: "Bottom 5%", ratio: "1 in 20", mog: "5%" },
-    3: { tier: "Sub-5", percentile: "Bottom 20%", ratio: "1 in 5", mog: "20%" },
-    4: { tier: "LTN", percentile: "Bottom 40%", ratio: "1 in 2.5", mog: "40%" },
-    5: { tier: "MTN", percentile: "Average (50%)", ratio: "1 in 2", mog: "50%" },
-    6: { tier: "HTN", percentile: "Top 5%", ratio: "1 in 20", mog: "95%" },
-    7: { tier: "Chadlite", percentile: "Top 1%", ratio: "1 in 100", mog: "99%" },
-    8: { tier: "Chad", percentile: "Top 0.1%", ratio: "1 in 1,000", mog: "99.9%" },
-    9: { tier: "Gigachad", percentile: "Top 0.01%", ratio: "1 in 10,000", mog: "99.99%" },
-    10: { tier: "True Adam", percentile: "Top 0.0001%", ratio: "1 in 1M", mog: "100%" },
-  };
+const bellCurveStats = {
+  1: { tier: "It's Over", percentile: "Bottom 0.01%", ratio: "1 in 10,000", mog: "0.01%" },
+  2: { tier: "Sub-Human", percentile: "Bottom 0.1%", ratio: "1 in 1,000", mog: "0.1%" },
+  3: { tier: "Sub-5", percentile: "Bottom 2.5%", ratio: "1 in 40", mog: "2.5%" },
+  4: { tier: "LTN", percentile: "Bottom 16%", ratio: "1 in 6", mog: "16%" },
+  5: { tier: "MTN", percentile: "Average (50%)", ratio: "1 in 2", mog: "50%" },
+  6: { tier: "HTN", percentile: "Top 16%", ratio: "1 in 6", mog: "84%" },
+  7: { tier: "Chadlite", percentile: "Top 2.5%", ratio: "1 in 40", mog: "97.5%" },
+  8: { tier: "Chad", percentile: "Top 0.1%", ratio: "1 in 1,000", mog: "99.9%" },
+  9: { tier: "Gigachad", percentile: "Top 0.01%", ratio: "1 in 10,000", mog: "99.99%" },
+  10: { tier: "True Adam", percentile: "Top 0.0001%", ratio: "1 in 1M", mog: "99.9999%" },
+};
 
   const getActiveStat = () => {
     if (hoveredScore !== null) return bellCurveStats[hoveredScore as keyof typeof bellCurveStats];

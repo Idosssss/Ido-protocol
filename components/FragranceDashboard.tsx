@@ -281,17 +281,17 @@ const FRAGRANCES: Fragrance[] = [
         sillage: 'Nuclear'
     },
     {
-        id: 'man-in-black-parfum',
-        name: 'Man in Black Parfum',
-        house: 'Bvlgari',
-        notes: 'Rum, Iris, Tuberose, Leather',
-        vibe: ['Dark', 'Spicy', 'Vulcan'],
-        season: ['Winter', 'Fall'],
-        performance: 'Long Lasting',
-        image: 'https://fimgs.net/mdimg/perfume-thumbs/dark-270x270.105520.avif',
-        projection: '5 Feet',
-        sillage: 'Strong'
-    },
+    id: 'vulcan-flame',
+    name: 'Vulcan Flame',
+    house: 'IDO Protocol',
+    notes: 'Saffron, Molten Amber, Incense, Smoked Oud',
+    vibe: ['Radiant', 'Intense', 'Ascended'],
+    season: ['Winter', 'Fall'],
+    performance: 'Beast Mode',
+    image: 'https://images.unsplash.com/photo-1595433707802-68067d84985a?q=80&w=270&h=270&auto=format&fit=crop', 
+    projection: 'Room Filling',
+    sillage: 'Extreme'
+},
     {
         id: 'khamrah',
         name: 'Khamrah',
